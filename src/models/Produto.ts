@@ -6,6 +6,6 @@ export default interface Produto {
   titulo: string;
   texto: string;
   data: string;
-  tema: Categoria| null;
+  categoria: Categoria| null;
  
 }
