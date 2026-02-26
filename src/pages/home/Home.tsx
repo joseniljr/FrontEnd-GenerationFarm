@@ -12,13 +12,6 @@ function Home() {
                         <p className='text-xl'>
                             Desenvolvendo hoje a saúde de amanhã
                         </p>
-
-                        <div className="flex justify-around gap-4">
-                            <div className='roundded text-white
-                                            border-white border-solid border-2 py-2 px-4'
-                            >              
-                            </div>
-                        </div>
                     </div>
 
                     <div className="flex justify-center ">

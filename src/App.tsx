@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/home/Home'
-
 import ListaCategorias from './components/categoria/listacategorias/ListaCategorias';
+import FormCategoria from './components/categoria/formcategoria/FormCategoria';
 
 function App() {
 	return (
@@ -16,6 +16,8 @@ function App() {
 							<Route path="/home" element={<Home />} />
               <Route path="/" element={<Home />} />
 							<Route path="/cadastro" element={<ListaCategorias />} />
+							<Route path="/cadastrarcategoria" element={<FormCategoria />} />
+              <Route path="/editarcategoria/:id" element={<FormCategoria />} />
 						</Routes>
 					</div>
 					<Footer />

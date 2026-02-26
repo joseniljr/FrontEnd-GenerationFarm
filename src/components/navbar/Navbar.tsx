@@ -8,7 +8,8 @@ function Navbar() {
           Projeto GenerationFarm
           <div className="flex">
             <Link to='/categorias' className='hover:underline'>Categorias</Link>
-            <span className="ml-8">Cadastrar Categoria</span>
+            <span className="ml-8"></span>
+            <Link to='/cadastrarcategoria' className='hover:underline'>Cadastrar categoria</Link>
           </div>
         </div>
       </div>
